@@ -1,4 +1,4 @@
-import { HolderBalance, Nft } from '@ankr.com/ankr.js/dist/types';
+import { Nft } from '@ankr.com/ankr.js/dist/types';
 import { useEffect, useState } from 'react';
 import { getNfts } from './utils';
 
