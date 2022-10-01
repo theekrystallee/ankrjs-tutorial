@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Ankr.js React Tutorial
+## NFT Viewer Using Ankr.js
 
 This is an example [Next.js](https://nextjs.org/) project that uses [Ankr.js](https://github.com/ankr-network/ankr.js) and [Ankr Advanced APIs](https://docs.ankr.com/ankr-advanced-apis).
 
