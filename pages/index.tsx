@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   const [walletAddress, setWalletAddress] = useState(
     '0xe4bBCbFf51e61D0D95FcC5016609aC8354B177C4'
   );
-  
+
   const { nfts, loading, error } = useNfts(walletAddress);
 
   useEffect(() => {
@@ -83,13 +83,9 @@ const Home: NextPage = () => {
       </div>
 
       <footer className="flex flex-col gap-2 mt-6 items-center">
-        <div className="flex justify-center space-x-2 md:order-2">
-            <a href="https://links.theekrystallee.com" target="blank" className="text-base text-gray-500 hover:text-gray-900">
-              made with &#10084; by krystal
-            </a>
-        </div>
-
-    </footer>
+        <a href="https://links.theekrystallee.com" target="blank" className="text-base text-gray-600 hover:text-gray-900">
+          made with &#10084; by krystal
+        </a>
         <div className="flex justify-center gap-2 mt-2 items-center">
           <a href="https://twitter.com/theekrystallee" target="blank" className="text-gray-400 hover:text-gray-500">
             <span className="sr-only">Twitter</span>
@@ -129,8 +125,9 @@ const Home: NextPage = () => {
               />
             </svg>
           </a>
-        </div>
-      </div>
+          </div>
+      </footer>
+    </div>
   );
 };
 

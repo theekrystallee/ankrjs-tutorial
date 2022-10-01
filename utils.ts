@@ -11,3 +11,4 @@ export const getNfts = async (address: string) => {
     nfts: assets,
   };
 };
+
