@@ -81,7 +81,6 @@ const Home: NextPage = () => {
           </div>
         )}
       </div>
-
       <footer className="flex flex-col gap-2 mt-6 items-center">
         <a href="https://links.theekrystallee.com" target="blank" className="text-base text-gray-600 hover:text-gray-900">
           made with &#10084; by krystal
