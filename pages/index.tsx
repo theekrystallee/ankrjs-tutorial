@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
   return (
     <div className='p-10 flex flex-col items-center'>
-      <h1 className='text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl md:text-6xl mb-4"'>
+      <h1 className='text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-400'>
         NFT Viewer
       </h1>
       <h3 className='text-zinc-700'>
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
       </h3>
 
       <div className='flex-left flex-col mt-4'>
-        <label className='text-zinc-700 text-2xl font-extrabold' htmlFor='wallet-address'>
+        <label className='text-zinc-700 text-1xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400' htmlFor='wallet-address'>
          &nbsp; Wallet address: &nbsp;
         </label>
         <input
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
           type='text'
           value={walletAddress}
           onChange={(e) => setWalletAddress(e.target.value)}
-          className='rounded p-3 w-[425px] border'
+          className='rounded p-1 w-[425px] border'
           placeholder='Enter a wallet address here to view NFTs'
         />
       </div>
